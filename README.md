@@ -5,7 +5,7 @@
 - Create a secrets.js file in the root directory
 - Copy and paste your firebase config from your firebase console in the **secrets.js**
 Your **secrets.js** file should look like this : 
-        export const firebaseConfig = {
+        ```export const firebaseConfig = {
           apiKey: "",
           authDomain: "",
           projectId: "",
@@ -14,6 +14,7 @@ Your **secrets.js** file should look like this :
           appId: "",
           measurementId: ""
         };
+          ```
 - Run the following command :
 `npm run build`
 - Start your local server
