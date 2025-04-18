@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background: #000000;
+    padding: 10px;
+}
+
+.crud{
+    width: 100%;
+    max-width: 540px;
+    background: #222222;
+    margin: 100px auto 70px;
+    padding: 40px 30px 70px;
+    border-radius: 10px;
+}
+
+.crud h2{
+    color: rgb(207, 207, 207);
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #edeef0;
+    border-radius: 30px;
+    padding-left: 20px;
+    margin-bottom: 25px;
+}
+
+.row input{
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 16px;
+}
+
+.row button{
+    border: none;
+    outline: none;
+    padding: 16px 40px;
+    background: #1DCD9F;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 40px;
+}
+
+.li-container{
+    color: rgb(206, 206, 206);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #141414;
+    border-radius: 30px;
+    padding: 10px 10px 10px 20px;
+}
+
+ul li{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: center;
+    list-style: none;
+    font-size: 16px;
+}
+
+ul li button{
+    color: rgb(206, 206, 206);
+    border: none;
+    outline: none;
+    margin: 0px 0px 0px 10px;
+    padding: 10px 20px;
+    background: #414141;
+    font-size: 12px;
+    cursor: pointer;
+    border-radius: 40px;
+}
+
+.name-edit input{
+    color: rgb(206, 206, 206);
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 16px;
+}

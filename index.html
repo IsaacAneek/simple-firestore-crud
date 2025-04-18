@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Firestore CRUD</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="crud">
+      <h2>Simple CRUD App using Firestore</h2>
+      <div class="row">
+        <input type="text" id="name" placeholder="Add a name" name="name" />
+        <button type="submit" id="submit-btn">Add</button>
+      </div>
+
+
+      <!-- List of items -->
+      <h2>Names</h2>
+      <ul id="item-list">
+<!--         <li>
+          <div class="li-container">
+            <div class="name-edit">
+              <input type="text" />
+            </div>
+            <div class="buttons">
+              <button>Update</button>
+              <button>Delete</button>
+            </div>
+          </div>
+        </li> -->
+      </ul>
+    </div>
+  </div>
+  <script type="module" src="/dist/bundle.js"></script>
+</body>
+
+</html>
