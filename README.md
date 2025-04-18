@@ -3,8 +3,8 @@
 - Install webpack : 
 `npm install webpack webpack-cli --save-dev`
 - Create a secrets.js file in the root directory
-- Copy and paste your firebase config from your firebase console in the **secrets.js**
-Your **secrets.js** file should look like this :
+- Copy and paste your firebase config from your firebase console in the **secrets.js** file.
+- Your **secrets.js** file should look like this :
 ```
 export const firebaseConfig = {
         apiKey: "",
